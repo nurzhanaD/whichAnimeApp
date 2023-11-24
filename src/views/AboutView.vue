@@ -4,7 +4,7 @@
         <div class="about-card">
             <p class="title">Search anime and randomizer</p>
             <p class="main-text">
-                If you ser suffering from not knowing what do you want to watch and you feel like you watched everything on the Internet,
+                If you are suffering from not knowing what do you want to watch and you feel like you watched everything on the Internet,
                 try out our randomizer or try to find something with our search anime.
             </p>
             <br>

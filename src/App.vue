@@ -3,7 +3,7 @@
     <nav>
       <router-link class="nav-link" to="/search">Search</router-link>
       <router-link class="nav-link" to="/random">Random</router-link>
-      <router-link class="nav-link" to="/about">About us</router-link>
+      <router-link class="nav-link" to="/about">About</router-link>
     </nav>
   </div>
   <router-view/>
@@ -33,12 +33,18 @@
   font-family: 'Comfortaa';
   src: url('./assets/Comfortaa/static/Comfortaa-Regular.ttf');
 }
+
+html {
+  background-color: #000;
+}
+
 * {
   margin:0;
   padding:0;
   font-family:Comfortaa;
   color:white;
 }
+
 nav {
   width:100vw;
   height:10vh;
@@ -46,7 +52,7 @@ nav {
   display:flex;
   justify-content: space-around;
   align-items: center;
-  background:black;
+  background-color:black;
 }
 .nav-link {
   text-decoration: none;
